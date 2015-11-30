@@ -16,7 +16,7 @@ public class AppNetaBlogSearchTest {
     //Create instance of PhantomJS driver
     DesiredCapabilities capabilities = DesiredCapabilities.phantomjs();
     // capabilities.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "/Users/sesh_nagineni/Downloads/phantomjs-2.0.0-macosx/bin/phantomjs");
-    capabilities.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "/root/phantomjs/bin/phantomjs");
+    capabilities.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "var/lib/jenkins/phantomjs/bin/phantomjs");
     PhantomJSDriver driver = new PhantomJSDriver(capabilities);
  
     //Navigate to the page
